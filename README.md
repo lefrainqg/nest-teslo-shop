@@ -20,5 +20,9 @@ docker-compose up -d
   - 1.4.	Iniciar terminal de docker para postgres
   - 1.5.	Iniciar consola de consulta: ```psql```	
   - 1.6.	Definir la contraseña por defecto para user postgres:
-  ```ALTER ROLE postgres WITH PASSWORD 'your_password';```  
-6. Levantar en modo desarrollo ```yarn start:dev```
+  ```ALTER ROLE postgres WITH PASSWORD 'your_password';```
+7. Ejecutar SEED
+```
+http://localhost:3000/api/seed
+```
+8. Levantar en modo desarrollo ```yarn start:dev```
